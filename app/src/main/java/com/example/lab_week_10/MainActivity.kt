@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun prepareViewModel() {
-        // Observe LiveData changes
         viewModel.total.observe(this) {
             updateText(it)
         }

@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class TotalViewModel : ViewModel() {
-    // LiveData object
+
     private val _total = MutableLiveData<Int>()
     val total: LiveData<Int> = _total
 
